@@ -1,3 +1,6 @@
+View notebook (NBViewer):
+https://nbviewer.org/github/IngaPosiunaite/taps-aff-weather-ml/blob/main/taps_aff_weather_ml.ipynb
+
 “Taps aff” is a Scottish phrase meaning “tops off”, commonly used when the weather is unusually warm.
 
 This project uses machine learning to predict whether a day in Glasgow is a “taps aff” day based on historical weather data.
