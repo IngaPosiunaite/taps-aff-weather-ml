@@ -2,53 +2,25 @@
 
 This project uses machine learning to predict whether a day in Glasgow is a “taps aff” day based on historical weather data.
 
----
+## Overview
 
-## Project Overview
+The project applies regression and binary classification to estimate missing weather values and predict warm days between 2023 and 2025. It follows a complete machine learning workflow, from data preparation to model evaluation.
 
-The project combines **regression** and **binary classification** to:
-- Estimate missing weather values
-- Predict warm “taps aff” days from 2023 to 2025
+## Approach
 
-It demonstrates a full machine learning workflow, including data cleaning, feature engineering, model training, and evaluation.
-
----
-
-## What This Project Does
-
-### 1. Handle Missing Weather Data
-A regression model is trained to estimate missing values (such as daylight duration) using complete weather records.
-
-### 2. Feature Engineering
-Dates are transformed into useful features (day and month) to help models learn seasonal patterns.
-
-### 3. Merge Datasets
-Weather data is combined with a labeled “taps aff” dataset to prepare training data for classification.
-
-### 4. Predict “Taps Aff” Days
-A binary classification deep learning model predicts whether a given day qualifies as a warm “taps aff” day.
-
-### 5. Evaluate Performance
-Model predictions are evaluated using test data and visualized to confirm realistic seasonal trends.
-
----
-
-## Technologies Used
-
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- TensorFlow / Keras  
-- Scikit-learn  
-
----
+- Predict missing weather values using a regression model  
+- Engineer date features to capture seasonal patterns  
+- Merge weather data with labeled “taps aff” records  
+- Train a binary classification model to predict warm days  
+- Evaluate model performance using test data  
 
 ## What I Learned
 
-- How to handle missing data using regression  
-- Feature engineering for time-based patterns  
-- Training deep learning models for classification  
-- Evaluating model performance on test datasets  
-- Building an end-to-end machine learning pipeline  
+- Handling missing data with regression  
+- Feature engineering for time-based data  
+- Training and evaluating classification models  
+- Working with real-world weather datasets  
 
+## Tech Stack
+
+Python, Pandas, NumPy, Matplotlib, TensorFlow/Keras, Scikit-learn
