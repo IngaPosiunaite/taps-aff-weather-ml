@@ -1,4 +1,4 @@
-# Taps Aff — Predicting Warm Days in Glasgow with Deep Learning
+## Taps Aff — Predicting Warm Days in Glasgow with Deep Learning
 
 > *"Taps aff"* is a Scottish expression meaning *"tops off"* — used when the weather in Glasgow is unusually warm. This project uses deep learning to predict whether a given day in Glasgow qualifies as a taps-aff day, based on historical weather data.
 
