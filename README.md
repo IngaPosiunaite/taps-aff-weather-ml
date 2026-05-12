@@ -69,4 +69,3 @@ jupyter notebook taps_aff_weather_ml.ipynb
 - Additional weather features (cloud cover, humidity, UV index) could improve the model further.
 You'll need to place `glasgow_weather.csv` and `taps_aff.csv` in either `/mnt/data/` or `/content/sample_data/` (the notebook tries both paths).
 
-## Project Structure
